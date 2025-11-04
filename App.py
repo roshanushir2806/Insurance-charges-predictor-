@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-with open("best_model.pkl", "rb") as file:
+with open("insurance_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 st.title("🏥 Medical Insurance Charges Predictor")
